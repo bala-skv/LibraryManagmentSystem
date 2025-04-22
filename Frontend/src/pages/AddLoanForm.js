@@ -38,7 +38,7 @@ const AddLoanForm = ({ users = [], books = [], onLoanAdded }) => {
 
   return (
     <form onSubmit={handleSubmit} className="bg-white shadow rounded-lg p-4 mb-4">
-      <h2 className="text-xl font-bold mb-4">Add Loan</h2>
+      <h2 className="text-xl font-bold mb-4">Add Borrowing</h2>
       {error && <div className="text-red-500 mb-4">{error}</div>}
       <div className="mb-4">
         <label className="block text-gray-700">User</label>
@@ -81,7 +81,7 @@ const AddLoanForm = ({ users = [], books = [], onLoanAdded }) => {
         </select>
       </div>
       <div className="mb-4">
-        <label className="block text-gray-700">Loan Date</label>
+        <label className="block text-gray-700">Date of Borrowing</label>
         <input
           type="date"
           value={loanDate}
@@ -101,7 +101,7 @@ const AddLoanForm = ({ users = [], books = [], onLoanAdded }) => {
         />
       </div>
       <button type="submit" className="bg-blue-500 hover:bg-blue-700 text-white font-bold py-2 px-4 rounded">
-        Add Loan
+        Add Borrowing
       </button>
     </form>
   )

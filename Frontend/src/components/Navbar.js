@@ -25,7 +25,7 @@ const Navbar = () => {
             Users
           </NavLink>
           <NavLink to="/loans" className="hover:bg-gray-700 px-3 py-2 rounded" activeClassName="bg-gray-900">
-            Loans
+            Borrowing
           </NavLink>
           <NavLink to="/inventory" className="hover:bg-gray-700 px-3 py-2 rounded" activeClassName="bg-gray-900">
             Inventory

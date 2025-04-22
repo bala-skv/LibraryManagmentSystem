@@ -53,7 +53,7 @@ const Dashboard = () => {
         <div className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-4 gap-6">
           <a href="/loans" className="bg-white shadow-lg rounded-lg p-6 text-center">
             <div>
-              <p className="text-gray-600 text-xl">Total Loans</p>
+              <p className="text-gray-600 text-xl">Total Borrowed</p>
               <p className="text-blue-600 text-3xl font-bold">{report.loanCount}</p>
             </div>
           </a>
@@ -71,7 +71,7 @@ const Dashboard = () => {
           </a>
           <a href="/loans" className="bg-white shadow-lg rounded-lg p-6 text-center">
             <div>
-              <p className="text-gray-600 text-xl">Overdue Loans</p>
+              <p className="text-gray-600 text-xl">Overdue Borrowings</p>
               <p className="text-yellow-600 text-3xl font-bold">{report.overdueLoans}</p>
             </div>
           </a>
